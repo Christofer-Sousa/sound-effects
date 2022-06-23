@@ -12,6 +12,7 @@ btnDemais.addEventListener("click", ()=>{
     demais.play()
 })
 
+
 const eleGosta = new Audio('./audios/Ele Goosta.mp3')
 const btnEleGosta = document.querySelector("#ele-gosta")
 
