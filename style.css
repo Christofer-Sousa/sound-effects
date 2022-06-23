@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 50px;
+}
+
+.btn-sound {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #B70000;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 2px;
+}
