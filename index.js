@@ -32,3 +32,24 @@ const btnRapaiz = document.querySelector("#rapaiz")
 btnRapaiz.addEventListener("click", ()=>{
     rapaiz.play()
 })
+
+const auhbraunhlb = new Audio('./audios/auhbraunhlb.mp3')
+const btnAuhbraunhlb = document.querySelector("#auhbraunhlb")
+
+btnAuhbraunhlb.addEventListener("click", ()=>{
+    auhbraunhlb.play()
+})
+
+const nao = new Audio('./audios/Nao Rodrigo Faro.mp3')
+const btnNao = document.querySelector("#nao")
+
+btnNao.addEventListener("click", ()=>{
+    nao.play()
+})
+
+const aoPotencia = new Audio('./audios/ao potencia.mp3')
+const btnAoPotencia = document.querySelector("#ao-potencia")
+
+btnAoPotencia.addEventListener("click", ()=>{
+    aoPotencia.play()
+})
