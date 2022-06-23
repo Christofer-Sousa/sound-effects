@@ -82,3 +82,10 @@ const btnAi = document.querySelector("#ai")
 btnAi.addEventListener("click", ()=>{
     ai.play()
 })
+
+const dancaGatinho = new Audio('./audios/Dança Gatinho.mp3')
+const btnDancaGatinho = document.querySelector("#danca-gatinho")
+
+btnDancaGatinho.addEventListener("click", ()=>{
+    dancaGatinho.play()
+})
