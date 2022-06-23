@@ -10,7 +10,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 30px;
-    gap: 50px;
+    gap: 20px;
 }
 
 .btn-sound {
@@ -27,4 +27,5 @@
     letter-spacing: 2px;
     text-align: center;
     padding: 2px;
+    margin-bottom: 10px;
 }
