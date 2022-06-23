@@ -89,3 +89,10 @@ const btnDancaGatinho = document.querySelector("#danca-gatinho")
 btnDancaGatinho.addEventListener("click", ()=>{
     dancaGatinho.play()
 })
+
+const QissoMFC = new Audio('./audios/que isso meu filho calma.mp3')
+const btnQissoMFC = document.querySelector("#q-isso-mfc")
+
+btnQissoMFC.addEventListener("click", ()=>{
+    QissoMFC.play()
+})
