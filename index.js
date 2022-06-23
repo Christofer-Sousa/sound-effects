@@ -53,3 +53,31 @@ const btnAoPotencia = document.querySelector("#ao-potencia")
 btnAoPotencia.addEventListener("click", ()=>{
     aoPotencia.play()
 })
+
+const cavalo = new Audio('./audios/cavalo.mp3')
+const btnCavalo = document.querySelector("#cavalo")
+
+btnCavalo.addEventListener("click", ()=>{
+    cavalo.play()
+})
+
+const chega = new Audio('./audios/cheeeega.mp3')
+const btnChega = document.querySelector("#chega")
+
+btnChega.addEventListener("click", ()=>{
+    chega.play()
+})
+
+const xiii = new Audio('./audios/xiii.mp3')
+const btnXiii = document.querySelector("#xi")
+
+btnXiii.addEventListener("click", ()=>{
+    xiii.play()
+})
+
+const ai = new Audio('./audios/ai.mp3')
+const btnAi = document.querySelector("#ai")
+
+btnAi.addEventListener("click", ()=>{
+    ai.play()
+})
